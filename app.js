@@ -33,6 +33,10 @@ function gameWinner(userChoice, computerChoice) {
     return "Computer wins!";
   }
 }
+// add event listener to submit button to play the game
+// document.getElementById("submit").addEventListener("click", function () {
+//   const computerChoice = getComputerChoice();
+//   const result = gameWinner(userChoice, computerChoice);
 
 // add event listener to submit button to play the game
 document.getElementById("submit").addEventListener("click", function () {
